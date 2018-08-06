@@ -23,9 +23,15 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/codemirror/lib/codemirror.css",
+              "./node_modules/mergely/lib/mergely.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/codemirror/lib/codemirror.js",
+              "./node_modules/mergely/lib/mergely.js"
+            ]
           },
           "configurations": {
             "production": {
